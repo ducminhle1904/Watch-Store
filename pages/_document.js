@@ -26,11 +26,6 @@ export default class MyDocument extends Document {
             content="You don't believe in the commonplace, and neither do we. We strive for absolute greatness - and our watches are the living illustration of that ideology. Are you ready to make your mark?"
           />
           <meta property="og:site_name" content="PrimeAmbassador.com" />
-          <link
-            href="http://fonts.cdnfonts.com/css/neutra-text-alt"
-            rel="stylesheet"
-          />
-          <style></style>
         </Head>
         <body>
           <Main />

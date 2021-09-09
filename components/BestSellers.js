@@ -1,8 +1,13 @@
 import Link from "next/link";
+import Intro from "./Intro";
 
 function BestSellers() {
+  const title = "LEAVE ORDINARY BEHIND";
+  const p =
+    "You don't believe in the commonplace, and neither do we. We strive for absolute greatness - and our watches are the living illustration of that ideology. Are you ready to make your mark?";
+
   return (
-    <div className="relative mt-[6rem] h-[55vh]">
+    <div className="relative mt-[6rem] h-[60vh] mb-[155px]">
       <div className="absolute text-center w-full text-[345px] leading-3 opacity-10 left-0 top-[25%] font-thin">
         2021
       </div>
@@ -67,6 +72,7 @@ function BestSellers() {
           </div>
         </div>
       </div>
+      <Intro title={title} p={p} />
     </div>
   );
 }
