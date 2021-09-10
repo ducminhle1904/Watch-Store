@@ -15,11 +15,11 @@ function Intro({ title, p, btn, color }) {
           >
             Explore
           </div>
-          <div className={`font-neutratext leading-5 text-4xl mb-4 z-10`}>
+          <div className={`font-neutratext text-4xl mb-4 z-10`}>
             <h3 className={color && "text-white"}>{title}</h3>
           </div>
           <p
-            className={`max-w-[500px] opacity-70 leading-7 tracking-wider mb-2 ${
+            className={`max-w-[500px] px-5 opacity-70 leading-7 tracking-wider mb-2 ${
               color && "text-white"
             }`}
           >

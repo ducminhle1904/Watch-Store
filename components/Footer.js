@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="bg-black py-20 text-[#cebebe]">
+    <div className="bg-black py-20 px-5 text-[#cebebe]">
       <div className="center">
         <div className="flex flex-wrap justify-between mb-20">
           <div

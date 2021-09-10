@@ -7,12 +7,12 @@ function BestSellers() {
     "You don't believe in the commonplace, and neither do we. We strive for absolute greatness - and our watches are the living illustration of that ideology. Are you ready to make your mark?";
 
   return (
-    <div className="relative mt-[6rem] h-[60vh] mb-[155px]">
-      <div className="absolute text-center w-full text-[345px] leading-3 opacity-10 left-0 top-[25%] font-thin">
+    <div className="relative mt-[6rem] h-[85vh] mb-24 xl:mb-[155px]">
+      <div className="absolute text-center w-full text-[345px] leading-3 opacity-10 left-0 top-[25%] font-thin hidden xl:block">
         2021
       </div>
       <div className="center">
-        <h3 className="font-neutratext text-2xl absolute left-2/4 -translate-x-2/4 -top-10">
+        <h3 className="font-neutratext w-full text-center text-2xl absolute left-2/4 -translate-x-2/4 -top-10">
           THE TOP SELLERS
         </h3>
         <div className="flex justify-evenly mx-auto">

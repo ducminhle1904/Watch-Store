@@ -11,6 +11,16 @@ html,
 body {
   background-color: #ececec;
   min-height: 100vh;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  width: 8px;
+}
+html::-webkit-scrollbar-track {
+  background: #2b2b2b;
+}
+html::-webkit-scrollbar-thumb {
+  background: #646464;
 }
 
 /*Hover nav link*/
@@ -40,8 +50,20 @@ body {
   transition: all 2.5s ease-out;
 }
 
+.btn {
+  padding: 0.75rem 1.75rem;
+  border: 1px solid #e4c7a5;
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #9c8265;
+}
+
 @layer utilities {
   .center {
     @apply max-w-[1345px] mx-auto py-4;
   }
 }
+/* font-neutratexttf px-7 py-3 border-[#e4c7a5] border relative inline-block btn flex-shrink-0 align-middle hover:bg-[#9c8265] duration-300 ease-in-out */

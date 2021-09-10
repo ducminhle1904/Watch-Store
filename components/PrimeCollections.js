@@ -6,7 +6,7 @@ function PrimeCollections() {
     "A stunning classic featuring sapphire, crystals, elegant details, and refined movement backed by a decade-long warranty. Because you shouldn't settle for less.";
   const btn = "EXPLORE THE COLLECTION";
   return (
-    <div className="relative h-[55vh]">
+    <div className="relative h-[90vh] md:h-[55vh] ">
       <div className="absolute w-full h-full">
         <img
           src="https://res.cloudinary.com/dppndtfp8/image/upload/v1631157181/collection-bg_nbilnm.jpg"

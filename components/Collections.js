@@ -4,7 +4,7 @@ import Link from "next/link";
 function Collections() {
   return (
     <div className="center">
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <div className="flex-grow mx-1 relative cursor-pointer overflow-hidden scale-95 hover:scale-100 transform transition duration-1000 ease-in-out">
           <Link href="/">
             <a>

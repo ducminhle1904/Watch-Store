@@ -2,8 +2,8 @@ function FeaturesBar() {
   return (
     <div className="py-5 bg-white">
       <div className="px-5 center">
-        <div className="flex items-center justify-around mx-auto max-w-[1165px]">
-          <div className="mr-5">
+        <div className="flex flex-col md:flex-row items-center justify-around mx-auto max-w-[1165px]">
+          <div className="m-3 md:mr-5">
             <div className="flex items-center justify-center">
               <div>
                 <svg
@@ -26,7 +26,7 @@ function FeaturesBar() {
               </h2>
             </div>
           </div>
-          <div className="mr-5">
+          <div className="m-3 md:mr-5">
             <div className="flex items-center justify-center">
               <div>
                 <svg
@@ -47,7 +47,7 @@ function FeaturesBar() {
               <h2 className="font-neutratexttf ml-1">10 YEAR WARRANTY</h2>
             </div>
           </div>
-          <div className="mr-5">
+          <div className="m-3 md:mr-5">
             <div className="flex items-center justify-center">
               <div>
                 <svg
@@ -68,7 +68,7 @@ function FeaturesBar() {
               <h2 className="font-neutratexttf ml-1">60 DAYS FREE RETURN</h2>
             </div>
           </div>
-          <div className="mr-5">
+          <div className="m-3 md:mr-5">
             <div className="flex items-center justify-center">
               <div>
                 <svg

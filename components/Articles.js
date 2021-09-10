@@ -4,8 +4,8 @@ function Articles() {
   return (
     <div className="relative pt-12 pb-12">
       <div className="center">
-        <div className="flex justify-between">
-          <div className="flex flex-col w-[620px] flex-grow items-center text-center relative">
+        <div className="flex justify-between md:justify-around">
+          <div className="flex flex-col w-[350px] lg:w-[620px] flex-grow-0 lg:flex-grow items-center text-center relative">
             <Link href="#">
               <a className="mb-10 max-w-[475px] relative w-full">
                 <img
@@ -37,7 +37,7 @@ function Articles() {
             </Link>
           </div>
 
-          <div className="flex flex-col w-[620px] flex-grow items-center text-center relative">
+          <div className="flex flex-col w-[350px] lg:w-[620px] flex-grow-0 lg:flex-grow items-center text-center relative">
             <Link href="#">
               <a className="mb-10 max-w-[475px] relative w-full">
                 <img

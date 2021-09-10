@@ -20,12 +20,26 @@ function Header() {
         show ? "bg-black" : ""
       } fixed z-20 w-screen mx-auto `}
     >
-      <header className="container flex items-center mx-auto justify-between h-16 left-0 right-0 text-white">
+      <header className="container flex items-center mx-auto justify-between lg:justify-around h-16 left-0 right-0 text-white">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6 lg:hidden"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
         <Link href="/">
           <a className="font-neutratext text-2xl">PRIME AMBASSADOR</a>
         </Link>
 
-        <ul className="flex items-center">
+        <ul className="hidden items-center lg:flex">
           <li className="mx-6 relative">
             <Link href="#">
               <a className="nav__link font-neutratext relative inline-block">
@@ -79,7 +93,7 @@ function Header() {
             />
           </svg>
           <Link href="/cart">
-            <a className="font-neutratext ml-1">CART</a>
+            <a className="font-neutratext ml-1 hidden md:block">CART</a>
           </Link>
         </div>
       </header>
