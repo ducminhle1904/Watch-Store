@@ -6,7 +6,7 @@ function PrimeCollections() {
     "A stunning classic featuring sapphire, crystals, elegant details, and refined movement backed by a decade-long warranty. Because you shouldn't settle for less.";
   const btn = "EXPLORE THE COLLECTION";
   return (
-    <div className="relative h-[90vh] md:h-[55vh] ">
+    <div className="relative h-[90vh] md:h-[60vh] ">
       <div className="absolute w-full h-full">
         <img
           src="https://res.cloudinary.com/dppndtfp8/image/upload/v1631157181/collection-bg_nbilnm.jpg"
@@ -17,6 +17,7 @@ function PrimeCollections() {
       <Intro title={title} p={p} btn={btn} color={true} />
       <div className="absolute bottom-0 left-0 right-0">
         <div
+          data-aos="zoom-out-left"
           className="watches"
           style={{
             backgroundImage:
@@ -25,6 +26,7 @@ function PrimeCollections() {
           }}
         ></div>
         <div
+          data-aos="zoom-out-right"
           className="watches"
           style={{
             backgroundImage:
@@ -33,6 +35,7 @@ function PrimeCollections() {
           }}
         ></div>
         <div
+          data-aos="zoom-out-left"
           className="watches"
           style={{
             backgroundImage:
@@ -41,6 +44,7 @@ function PrimeCollections() {
           }}
         ></div>
         <div
+          data-aos="zoom-out-right"
           className="watches"
           style={{
             backgroundImage:
@@ -49,6 +53,7 @@ function PrimeCollections() {
           }}
         ></div>
         <div
+          data-aos="zoom-out-left"
           className="watches"
           style={{
             backgroundImage:
@@ -57,6 +62,7 @@ function PrimeCollections() {
           }}
         ></div>
         <div
+          data-aos="zoom-out-right"
           className="watches"
           style={{
             backgroundImage:
@@ -65,6 +71,7 @@ function PrimeCollections() {
           }}
         ></div>
         <div
+          data-aos="zoom-in"
           className="watches"
           style={{
             backgroundImage:

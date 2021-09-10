@@ -61,9 +61,26 @@ html::-webkit-scrollbar-thumb {
   background-color: #9c8265;
 }
 
+/* Menu open*/
+#menu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 0 0 10px #85888c;
+  padding: 30px;
+  background: linear-gradient(227deg, rgb(37, 35, 33), rgb(22, 21, 21));
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  z-index: 100;
+}
+#menu li {
+  padding: 10px 0;
+  transition-delay: 2s;
+}
 @layer utilities {
   .center {
     @apply max-w-[1345px] mx-auto py-4;
   }
 }
-/* font-neutratexttf px-7 py-3 border-[#e4c7a5] border relative inline-block btn flex-shrink-0 align-middle hover:bg-[#9c8265] duration-300 ease-in-out */

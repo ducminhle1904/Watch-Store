@@ -1,4 +1,7 @@
+import React, { useEffect } from "react";
 import Head from "next/head";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import FeaturesBar from "../components/FeaturesBar";
@@ -12,6 +15,11 @@ import Articles from "../components/Articles";
 import Footer from "../components/Footer";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <div>
       <Head>

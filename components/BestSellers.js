@@ -7,7 +7,7 @@ function BestSellers() {
     "You don't believe in the commonplace, and neither do we. We strive for absolute greatness - and our watches are the living illustration of that ideology. Are you ready to make your mark?";
 
   return (
-    <div className="relative mt-[6rem] h-[85vh] mb-24 xl:mb-[155px]">
+    <div className="relative mt-[6rem] h-[85vh] lg:h-[65vh] mb-24 xl:mb-[155px]">
       <div className="absolute text-center w-full text-[345px] leading-3 opacity-10 left-0 top-[25%] font-thin hidden xl:block">
         2021
       </div>
@@ -16,7 +16,7 @@ function BestSellers() {
           THE TOP SELLERS
         </h3>
         <div className="flex justify-evenly mx-auto">
-          <div className="max-w-[210px] flex-grow z-10">
+          <div className="max-w-[210px] flex-grow z-10" data-aos="fade-up">
             <Link href="/">
               <a className="flex flex-col items-center">
                 <img
@@ -34,7 +34,7 @@ function BestSellers() {
               </a>
             </Link>
           </div>
-          <div className="max-w-[210px] flex-grow z-10">
+          <div className="max-w-[210px] flex-grow z-10" data-aos="fade-up">
             <Link href="/">
               <a className="flex flex-col items-center">
                 <img
@@ -52,7 +52,7 @@ function BestSellers() {
               </a>
             </Link>
           </div>
-          <div className="max-w-[210px] flex-grow z-10">
+          <div className="max-w-[210px] flex-grow z-10" data-aos="fade-up">
             <Link href="/">
               <a className="flex flex-col items-center">
                 <img

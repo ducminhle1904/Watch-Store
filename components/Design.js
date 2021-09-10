@@ -10,14 +10,22 @@ function Design({ color }) {
       <div className="center">
         <div className="flex mx-auto px-5">
           <PromoText title={title} p={p} btn={btn} color={color} />
-          <div className="w-2/4 xl:max-w-[485px] mr-3 hidden md:block">
+          <div
+            className="w-2/4 xl:max-w-[485px] mr-3 hidden md:block"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <img
               src="https://res.cloudinary.com/dppndtfp8/image/upload/v1631156091/design-house_fxja2g.jpg"
               alt="design house"
               style={{ height: "100%", objectFit: "cover" }}
             />
           </div>
-          <div className="hidden max-w-[330px] lg:flex flex-col">
+          <div
+            className="hidden max-w-[330px] lg:flex flex-col"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <div className="mb-5">
               <img
                 src="https://res.cloudinary.com/dppndtfp8/image/upload/v1631156091/design-02_lthdvx.jpg"

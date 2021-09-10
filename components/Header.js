@@ -3,6 +3,7 @@ import Link from "next/link";
 
 function Header() {
   const [show, handleShow] = useState(false);
+  const [open, setOpen] = useState(false);
   const transitionNavBar = () => {
     if (window.scrollY > 100) {
       handleShow(true);
@@ -27,6 +28,7 @@ function Header() {
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          onClick={() => setOpen(!open)}
         >
           <path
             strokeLinecap="round"
@@ -35,6 +37,7 @@ function Header() {
             d="M4 6h16M4 12h16M4 18h16"
           />
         </svg>
+
         <Link href="/">
           <a className="font-neutratext text-2xl">PRIME AMBASSADOR</a>
         </Link>
@@ -97,6 +100,54 @@ function Header() {
           </Link>
         </div>
       </header>
+      <ul id="menu" className={`${open ? "transform-none !important" : ""}`}>
+        <li className="mb-1" style={{ borderBottom: "1px solid white" }}>
+          <Link href="">
+            <a className="font-neutratexttf text-2xl text-white">
+              Men's Watches
+            </a>
+          </Link>
+        </li>
+        <li className="mb-1" style={{ borderBottom: "1px solid white" }}>
+          <Link href="">
+            <a className="font-neutratexttf text-2xl text-white">
+              Women's Watches
+            </a>
+          </Link>
+        </li>
+        <li className="mb-1" style={{ borderBottom: "1px solid white" }}>
+          <Link href="">
+            <a className="font-neutratexttf text-2xl text-white">Straps</a>
+          </Link>
+        </li>
+        <li className="mb-1" style={{ borderBottom: "1px solid white" }}>
+          <Link href="">
+            <a className="font-neutratexttf text-2xl text-white">The Story</a>
+          </Link>
+        </li>
+        <li className="mb-1" style={{ borderBottom: "1px solid white" }}>
+          <Link href="">
+            <a className="font-neutratexttf text-2xl text-white">
+              Design House
+            </a>
+          </Link>
+        </li>
+        <li className="mb-1" style={{ borderBottom: "1px solid white" }}>
+          <Link href="">
+            <a className="font-neutratexttf text-2xl text-white">Lookbook</a>
+          </Link>
+        </li>
+        <li className="mb-1" style={{ borderBottom: "1px solid white" }}>
+          <Link href="">
+            <a className="font-neutratexttf text-2xl text-white">Ambassadors</a>
+          </Link>
+        </li>
+        <li className="mb-1" style={{ borderBottom: "1px solid white" }}>
+          <Link href="">
+            <a className="font-neutratexttf text-2xl text-white">Reviews</a>
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 }
