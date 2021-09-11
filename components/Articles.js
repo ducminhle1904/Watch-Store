@@ -4,8 +4,8 @@ function Articles() {
   return (
     <div className="relative pt-12 pb-12">
       <div className="center">
-        <div className="flex justify-between md:justify-around">
-          <div className="flex flex-col w-[350px] lg:w-[620px] flex-grow-0 lg:flex-grow items-center text-center relative">
+        <div className="flex flex-col md:flex-row justify-between md:justify-around">
+          <div className="flex flex-col w-full md:w-[350px] lg:w-[620px] flex-grow-0 lg:flex-grow items-center text-center relative mb-[50px] md:mb-0">
             <Link href="#">
               <a className="mb-10 max-w-[475px] relative w-full">
                 <img
@@ -19,14 +19,14 @@ function Articles() {
                 DESIGNED IN SWEDEN
               </a>
             </Link>
-            <p className="max-w-[390px] opacity-75 font-neutratexttf py-6">
+            <p className="max-w-[390px] opacity-75 font-neutratexttf py-6 hidden md:block">
               Experience the excellence of true Swedish craftsmanship. Every
               watch we create is designed in-house, with meticulous precision
               and absolute perfection in mind.
             </p>
             <Link href="#">
               <a
-                className="font-neutratexttf text-sm pb-[2px] absolute bottom-0"
+                className="font-neutratexttf text-sm pb-[2px] absolute -bottom-8"
                 style={{
                   textDecoration: "underline",
                   textDecorationColor: "#cab49c",
@@ -37,7 +37,7 @@ function Articles() {
             </Link>
           </div>
 
-          <div className="flex flex-col w-[350px] lg:w-[620px] flex-grow-0 lg:flex-grow items-center text-center relative">
+          <div className="flex flex-col w-full md:w-[350px] lg:w-[620px] flex-grow-0 lg:flex-grow items-center text-center relative">
             <Link href="#">
               <a className="mb-10 max-w-[475px] relative w-full">
                 <img
@@ -51,14 +51,14 @@ function Articles() {
                 ONLY PREMIUM MATERIALS
               </a>
             </Link>
-            <p className="max-w-[390px] opacity-75 font-neutratexttf py-6">
+            <p className="max-w-[390px] opacity-75 font-neutratexttf py-6 hidden md:block">
               All Ambassador watches are built with extreme precision and
               attention to detail. We are committed to using the absolute best
               materials while still offering an affordable price.
             </p>
             <Link href="#">
               <a
-                className="font-neutratexttf text-sm pb-[2px] absolute bottom-0"
+                className="font-neutratexttf text-sm pb-[2px] absolute -bottom-8"
                 style={{
                   textDecoration: "underline",
                   textDecorationColor: "#cab49c",
