@@ -66,7 +66,7 @@ html::-webkit-scrollbar-thumb {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  padding: 30px;
+  padding: 10px 30px;
   background: linear-gradient(227deg, rgb(37, 35, 33), rgb(22, 21, 21));
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -77,6 +77,21 @@ html::-webkit-scrollbar-thumb {
 #menu li {
   padding: 10px 0;
   transition-delay: 2s;
+}
+
+.menu2 ul li {
+  padding: 5px 0 !important;
+}
+.menu2 {
+  position: relative;
+}
+.menu2::before {
+  content: "";
+  background: #c0a98f;
+  width: 40px;
+  height: 1px;
+  position: absolute;
+  top: 0;
 }
 @layer utilities {
   .center {
